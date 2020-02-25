@@ -20,9 +20,9 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Configuration.Controllers
     public class HomeController : Controller
     {
         private const string TeamIdEscapedStartString = "19%3a";
-        private const string TeamIdEscapedEndString = "%40thread.skype";
+        private const string TeamIdEscapedEndString = "%40thread.tacv2";
         private const string TeamIdUnescapedStartString = "19:";
-        private const string TeamIdUnescapedEndString = "@thread.skype";
+        private const string TeamIdUnescapedEndString = "@thread.tacv2";
 
         private readonly ConfigurationProvider configurationPovider;
         private readonly IQnAMakerClient qnaMakerClient;
